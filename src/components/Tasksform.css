@@ -1,0 +1,52 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.task-input {
+  font-size: 20px;
+  font-weight: 500;
+  background: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #dfe3e6;
+  padding: 8px 20px;
+  margin-bottom: 5px;
+  color: black;
+  width: 100%;
+}
+.app-header > form {
+  width: 40%;
+}
+
+.task-bottom-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-status {
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid #999;
+  padding: 0 5px;
+  height: 40px;
+  width: 120px;
+}
+
+.task-submit {
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  color: #fff;
+  background-color: darkblue;
+  height: 40px;
+  padding: 3px 13px;
+  margin-left: 3px;
+  cursor: pointer;
+  border: none;
+}
+
+.task-input::placeholder {
+  color: #686868;
+}
